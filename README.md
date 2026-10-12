@@ -2,11 +2,6 @@
 
 This repository contains Cypress end-to-end tests for the Thinking Tester Contact List public application.
 
-## Features
-- **Page Object Model** with clean separation of concerns
-- Tests split into API and UI layers
-- Faker-powered data generation
-- Reusable request bodies, constants and API helper functions
 
 ## Project structure
 ```
@@ -33,7 +28,7 @@ This repository contains Cypress end-to-end tests for the Thinking Tester Contac
 
 ```bash
 # 1. Clone the repo
-git clone 
+git clone https://github.com/Tkoukoutzelas/e2e-cypress-tests
 
 # 2. Install dependencies
 npm install
