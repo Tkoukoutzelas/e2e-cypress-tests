@@ -1,0 +1,16 @@
+{
+  "name": "vimachem-qa-technical-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vendor machine test cases and Cypress automation for Thinking Tester Contact List",
+  "scripts": {
+    "test": "cypress run",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.js\"",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress": "^16.1.1"
+  }
+}
